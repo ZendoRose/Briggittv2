@@ -634,24 +634,27 @@ infobot =`⊷ *BOT*
 *${soportefg}*
 
 ⊷ *AGRADECIMIENTOS* ⊶
-▢ *FG98* :
+
+▢ *JY* :
 @${fgnum.split("@")[0]}
 _*Diseñador del bot*_
-_*Fb*_ : facebook.com/fg98A
-_*Fb*_ : facebook.com/fg98ff
-▢ *CRISS* :
-@${crisnum.split("@")[0]}
+_*Fb*_ : facebook.com
+_*Fb*_ : facebook.com
+
+▢ *z* :
 _*Ayudante de alguno de los camandos*_
-_*Ig*_ : instagram.com/sayurizuniga3
+_*Ig*_ : instagram.com
 ▢ *Mi Gato* :
 _*:)*_
 
 ▢ Instagram :
-https://www.instagram.com/fg98._
+https://www.instagram.com
+
 ▢ BASE :
-https://github.com/FG98F/fgbotv3
+https://github.com/JYBriggitt/Briggittv2
+
 ▢ DUEÑO :
-https://github.com/FG98F`
+https://github.com/JYBriggitt`
 mentions(infobot, [fgnum, crisnum], true)
 break
 
