@@ -27,12 +27,12 @@ const starts = async (Fg = new WAConnection()) => {
  // Fg.version = [2, 2119, 6];
  
  const CFonts  = require('cfonts')
-CFonts.say('FG98', {
+CFonts.say('JY', {
   font: 'pallet',
   align: 'center',
   gradient: ['red', 'magenta']
 })
-CFonts.say(`DyLux By FG98 Ig : @fg98._`, {
+CFonts.say(`DyLux By JY Ig : Jhoel_9998`, {
   font: 'console',
   align: 'center',
   colors: ['yellow']
