@@ -2268,7 +2268,7 @@ _📤 Enviando, espere si el audio no aparece, descargue por el link_`
                     .then((res) => {
                     
                         const { dl_link, thumb, title, filesizeF, filesize } = res
-                        axios.get(`https://tinyurl.com/api-create.php?url=${dl_link}`)
+                        axios.get(`https://tinyurl.com/api-create.php?url=${dl_text}`)
                         .then(async (a) => {
                         if (Number(filesize) >= 100000) return sendMediaURL(from, thumb, `
 *🎥 Video econtrado*
