@@ -114,8 +114,8 @@ const owner = confi.ownerN
 const mods = confi.mods
 
 //---------𝗥𝗘𝗗𝗘𝗦 𝗦𝗢𝗖𝗜𝗔𝗟𝗘𝗦---------
-const soportefg = 'https://chat.whatsapp.com/G5sXrkhJ0pb0Tu8nhWLaFK' 
-const instafg = 'https://www.instagram.com/fg98._'
+const soportefg = 'https://chat.whatsapp.com' 
+const instafg = 'https://www.instagram.com'
 //--anti delete 
 antidel = false
 ngetik = false
@@ -131,8 +131,8 @@ baterai = {
 //--Contacto del dueño
 const vcard1 = 'BEGIN:VCARD\n' 
  + 'VERSION:3.0\n' 
- + 'FN:FG98\n'
- + 'ORG:Dueño de DyLuxBot;\n' 
+ + 'FN:JY\n'
+ + 'ORG:Dueño de BriggittBot;\n' 
  + `TEL;type=CELL;type=VOICE;waid=${owner}:+${owner}\n`
  + 'END:VCARD'
       
@@ -634,7 +634,6 @@ infobot =`⊷ *BOT*
 *${soportefg}*
 
 ⊷ *AGRADECIMIENTOS* ⊶
-
 ▢ *JY* :
 @${fgnum.split("@")[0]}
 _*Diseñador del bot*_
@@ -761,7 +760,7 @@ case 'solicitud':
 if (!isVerify) return reply(userB(prefix))
   if (isBanned) return reply(banf())
   yoi = q
-  if (args.length < 1) return reply('✳️ Ingrese las funciones que desee en el Bot *DyLux*')
+  if (args.length < 1) return reply('✳️ Ingrese las funciones que desee en el Bot *Briggitt*')
   if (yoi.length > 200 ) return reply('El texto supera el límite, su solicitud es rechazada !')
   _solicitud.push(yoi)
   fs.writeFileSync('./result/reportes/solicitud.json', JSON.stringify(_solicitud))
@@ -1122,7 +1121,7 @@ case 'enlinea':
         		let ido = args && /\d+\-\d+@g.us/.test(args[0]) ? args[0] : from
     
 			    let online = [...Object.keys(Fg.chats.get(ido).presences), Fg.user.jid]
-			    Fg.sendMessage(from, 'En linea:\n' + online.map(v => '- @' + v.replace(/@.+/, '')).join`\n` + `\n*©POWERED BY Dylux ┃ ᴮᴼᵀ*`, text, { quoted: mek,
+			    Fg.sendMessage(from, 'En linea:\n' + online.map(v => '- @' + v.replace(/@.+/, '')).join`\n` + `\n*©POWERED BY Briggitt ┃ ᴮᴼᵀ*`, text, { quoted: mek,
   			  contextInfo: { mentionedJid: online }
     
 			    })
@@ -1310,7 +1309,7 @@ case 'staff':
 					for (let admin of groupAdmins) {
 						teks += `├╼ @${admin.split('@')[0]}\n`
 					}
-					teks += `└────✪ Dylux ┃ ᴮᴼᵀ ✪────`
+					teks += `└────✪ Briggitt ┃ ᴮᴼᵀ ✪────`
 					mentions(teks, groupAdmins, true)
 					break
 
@@ -1429,7 +1428,7 @@ anug = await imgbb2("20a14861e4f7591f3dc52649cb07ae02", './stickgay.jpeg')
 txtg = `${anug.display_url}`
 sgay = await getBuffer(`https://pecundang.herokuapp.com/api/gay?url=${txtg}`)
 const bas642 = `data:image/jpeg;base64,${sgay.toString('base64')}`
-var mantap2 = await convertSticker(bas642, `💎 @fg98._`, `🔮 DyLux ┃ ᴮᴼᵀ`)
+var mantap2 = await convertSticker(bas642, `💎 @fg98._`, `🔮 Briggitt ┃ ᴮᴼᵀ`)
 var imageBuffer2 = new Buffer.from(mantap2, 'base64');
 Fg.sendMessage(from, imageBuffer2, sticker, {quoted: mek})
 fs.unlinkSync('./stickgay.jpeg')
@@ -1452,7 +1451,7 @@ anur = await imgbb2r("20a14861e4f7591f3dc52649cb07ae02", './stickrip.jpeg')
 txtr = `${anur.display_url}`
 srip = await getBuffer(`https://pecundang.herokuapp.com/api/rip?url=${txtr}`)
 const bas642r = `data:image/jpeg;base64,${srip.toString('base64')}`
-var mantap2r = await convertSticker(bas642r, `💎 @fg98._`, `🔮 DyLux ┃ ᴮᴼᵀ`)
+var mantap2r = await convertSticker(bas642r, `💎 @fg98._`, `🔮 Briggitt ┃ ᴮᴼᵀ`)
 var imageBuffer2r = new Buffer.from(mantap2r, 'base64');
 Fg.sendMessage(from, imageBuffer2r, sticker, {quoted: mek})
 fs.unlinkSync('./stickrip.jpeg')
@@ -1506,7 +1505,7 @@ anuc = await imgbb2c("20a14861e4f7591f3dc52649cb07ae02", './stickc.jpeg')
 txtc = `${anuc.display_url}`
 sc = await getBuffer(`https://pecundang.herokuapp.com/api/jail?url=${txtc}`)
 const bas642c = `data:image/jpeg;base64,${sc.toString('base64')}`
-var mantap2c = await convertSticker(bas642c, `💎 @fg98._`, `🔮 DyLux ┃ ᴮᴼᵀ`)
+var mantap2c = await convertSticker(bas642c, `💎 @fg98._`, `🔮 Briggitt ┃ ᴮᴼᵀ`)
 var imageBuffer2c = new Buffer.from(mantap2c, 'base64');
 Fg.sendMessage(from, imageBuffer2c, sticker, {quoted: mek})
 fs.unlinkSync('./stickc.jpeg')
@@ -1597,7 +1596,7 @@ case 'tagall':
 				teks += `▢ @${mem.jid.split('@')[0]}\n`
 						members_id.push(mem.jid)
 					}
-		teks += `└─────✪ Dylux ┃ ᴮᴼᵀ ✪───────`
+		teks += `└─────✪ Briggitt ┃ ᴮᴼᵀ ✪───────`
 			mentions(teks, members_id, true)
 			break
 			
@@ -1819,7 +1818,7 @@ if (args.length < 1) return reply(`✳️ Ejemplo : ${prefix + command} Lil Peep
 		            ytresult += '*⏳ Duración* : ' + video.timestamp + '\n'
 		            ytresult += '*📤 Publicado* : ' + video.ago + '\n________________________\n\n'
 		    		});
-		    		ytresult += '─── DyLux ┃ ᴮᴼᵀ ───'
+		    		ytresult += '─── Briggitt ┃ ᴮᴼᵀ ───'
 		    		
 		            Fg.sendMessage(from, tbuff, image, {quoted: mek, caption: ytresult})
 		            
@@ -2005,7 +2004,7 @@ if (!isVerify) return reply(userB(prefix))
           .message.extendedTextMessage.contextInfo;
         media = await Fg.downloadAndSaveMediaMessage(encmedia);
         anu = args.join(" ").split("|");
-        satu = anu[0] !== "" ? anu[0] : `DyLux`;
+        satu = anu[0] !== "" ? anu[0] : `Briggitt`;
         dua = typeof anu[1] !== "undefined" ? anu[1] : `@fg98._`;
         require("./libreria/fetcher.js").createExif(satu, dua);
         require("./libreria/fetcher.js").modStick(media, Fg, mek, from);
@@ -2313,7 +2312,7 @@ case 'sgif':
   if (!isVerify) return reply(userB(prefix))
   if (isBanned) return reply(banf())
 					var a = 'FG98'
-        var b = 'DyLux v4'
+        var b = 'Briggitt'
         if (
           ((isMedia && !mek.message.videoMessage) || isQuotedImage) &&
           args.length == 0
@@ -2375,7 +2374,7 @@ case 'sgif':
             : mek;
           const media = await Fg.downloadAndSaveMediaMessage(encmedia);
         var a = 'FG98'
-        var b = 'DyLux v4'
+        var b = 'Briggitt'
           await createExif(a, b);
           out = getRandom(".webp");
           ffmpeg(media)
@@ -2474,7 +2473,7 @@ if (!isVerify) return reply(userB(prefix))
           if (!isUrl(args[0]) && !args[0].includes("whatsapp.com"))
             return reply(mess.link);
           hen = args[0];
-          if (args.length < 1) return reply(`✳️ Envie el link de tu Grupo  sin el *https://*\n\n📌 Ejemplo *${prefix + command}* chat.whatsapp.com/G5sXrkhJ0pb0Tu8nhWLaFK`);
+          if (args.length < 1) return reply(`✳️ Envie el link de tu Grupo  sin el *https://*\n\n📌 Ejemplo *${prefix + command}* chat.whatsapp.com`);
           var codeInvite = hen.split("chat.whatsapp.com/")[1];
           if (!codeInvite) return reply("Asegúrese de que el enlace sea correcto");
           var response = await Fg.acceptInvite(codeInvite);
@@ -2589,7 +2588,7 @@ if (!isVerify) return reply(userB(prefix))
 case 'ttp':  
              if (!isVerify) return reply(userB(prefix))
   if (isBanned) return reply(banf())
-if (args.length < 1) return reply(`✳️ _Envie el texto_\n\n📌Ejemplo *${prefix + command}* DyLux`)
+if (args.length < 1) return reply(`✳️ _Envie el texto_\n\n📌Ejemplo *${prefix + command}* Briggitt`)
                     reply(wait())
                     F = q
                     anu1 = await getBuffer(`https://lolhuman.herokuapp.com/api/ttp3?apikey=${lolkey}&text=${F}`)
@@ -2601,7 +2600,7 @@ if (args.length < 1) return reply(`✳️ _Envie el texto_\n\n📌Ejemplo *${pre
 	case 'attp':
 	              if (!isVerify) return reply(userB(prefix))
   if (isBanned) return reply(banf())
-if (args.length < 1) return reply(`✳️ _Envie el texto_\n\n📌Ejemplo *${prefix + command}* DyLux`)
+if (args.length < 1) return reply(`✳️ _Envie el texto_\n\n📌Ejemplo *${prefix + command}* Briggitt`)
 					  reply(wait())
 					var teks = encodeURIComponent(args.join(' '))
 					const attp = await getBuffer(`https://api.xteam.xyz/attp?file&text=${teks}`)
