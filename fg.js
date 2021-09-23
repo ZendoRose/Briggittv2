@@ -549,8 +549,8 @@ const linkwa = 'https://chat.whatsapp.com'
       type === "extendedTextMessage" && content.includes("stickerMessage");
       
  
- if (!isGroup && isCmd) console.log(color('[FG98]','aqua'), "Pv", color(command, "blue"), "de", (sender.split('@')[0]),  args.length)
-if (isGroup && isCmd) console.log(color('[FG98]','aqua'), "Gp", color(command, "green"), "de", (sender.split('@')[0]), "en", (groupName), args.length)
+ if (!isGroup && isCmd) console.log(color('[JY]','aqua'), "Pv", color(command, "blue"), "de", (sender.split('@')[0]),  args.length)
+if (isGroup && isCmd) console.log(color('[JY]','aqua'), "Gp", color(command, "green"), "de", (sender.split('@')[0]), "en", (groupName), args.length)
 
 //----------- 𝗩𝗘𝗥 𝗖𝗔𝗥𝗔𝗖𝗧𝗘𝗥𝗜́S𝗧𝗜𝗖𝗔𝗦---------
 
