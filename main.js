@@ -32,7 +32,7 @@ CFonts.say('JY', {
   align: 'center',
   gradient: ['red', 'magenta']
 })
-CFonts.say(`DyLux By JY Ig : Jhoel_9998`, {
+CFonts.say(`Briggitt By JY Ig : Jhoel_9998`, {
   font: 'console',
   align: 'center',
   colors: ['yellow']
