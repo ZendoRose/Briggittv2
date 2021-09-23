@@ -426,6 +426,7 @@ const isAw = isGroup ? awgp.includes(from) : false
                 let mime = ""
                 var download = function (uri, filename, callback) {
                     request.head(uri, function (err, res, body) {
+                        mime = res.headers['content-type']
                         request(uri).pipe(fs.createWriteStream(filename)).on('close', callback);
                     });
                 };
