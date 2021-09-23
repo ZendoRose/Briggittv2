@@ -2,7 +2,7 @@
 
     🇩 🇾 🇱 🇺 🇽  𝗩4  template
 
-============ FG98 ============*/
+============ JY ============*/
 
  //--  Conectar a WhatsApp
 const {
@@ -1428,7 +1428,7 @@ anug = await imgbb2("20a14861e4f7591f3dc52649cb07ae02", './stickgay.jpeg')
 txtg = `${anug.display_url}`
 sgay = await getBuffer(`https://pecundang.herokuapp.com/api/gay?url=${txtg}`)
 const bas642 = `data:image/jpeg;base64,${sgay.toString('base64')}`
-var mantap2 = await convertSticker(bas642, `💎 @fg98._`, `🔮 Briggitt ┃ ᴮᴼᵀ`)
+var mantap2 = await convertSticker(bas642, `💎 JY`, `🔮 Briggitt ┃ ᴮᴼᵀ`)
 var imageBuffer2 = new Buffer.from(mantap2, 'base64');
 Fg.sendMessage(from, imageBuffer2, sticker, {quoted: mek})
 fs.unlinkSync('./stickgay.jpeg')
@@ -1451,7 +1451,7 @@ anur = await imgbb2r("20a14861e4f7591f3dc52649cb07ae02", './stickrip.jpeg')
 txtr = `${anur.display_url}`
 srip = await getBuffer(`https://pecundang.herokuapp.com/api/rip?url=${txtr}`)
 const bas642r = `data:image/jpeg;base64,${srip.toString('base64')}`
-var mantap2r = await convertSticker(bas642r, `💎 @fg98._`, `🔮 Briggitt ┃ ᴮᴼᵀ`)
+var mantap2r = await convertSticker(bas642r, `💎 JY`, `🔮 Briggitt ┃ ᴮᴼᵀ`)
 var imageBuffer2r = new Buffer.from(mantap2r, 'base64');
 Fg.sendMessage(from, imageBuffer2r, sticker, {quoted: mek})
 fs.unlinkSync('./stickrip.jpeg')
@@ -1505,7 +1505,7 @@ anuc = await imgbb2c("20a14861e4f7591f3dc52649cb07ae02", './stickc.jpeg')
 txtc = `${anuc.display_url}`
 sc = await getBuffer(`https://pecundang.herokuapp.com/api/jail?url=${txtc}`)
 const bas642c = `data:image/jpeg;base64,${sc.toString('base64')}`
-var mantap2c = await convertSticker(bas642c, `💎 @fg98._`, `🔮 Briggitt ┃ ᴮᴼᵀ`)
+var mantap2c = await convertSticker(bas642c, `💎 JY`, `🔮 Briggitt ┃ ᴮᴼᵀ`)
 var imageBuffer2c = new Buffer.from(mantap2c, 'base64');
 Fg.sendMessage(from, imageBuffer2c, sticker, {quoted: mek})
 fs.unlinkSync('./stickc.jpeg')
@@ -1999,13 +1999,13 @@ if (args.length < 1) return reply(`✳️ *Uso del comamdo* :\n${prefix}fake @ta
          case 'robar':
 if (!isVerify) return reply(userB(prefix))
   if (isBanned) return reply(banf())
- if (!isQuotedSticker) return reply(`✳️ Responde a un sticker\n\n*USO DEL COMAMDO*\n*${prefix + command}* Nombre|Autor\n\n📌Ejemplo *${prefix + command}* Memes|FG98`);
+ if (!isQuotedSticker) return reply(`✳️ Responde a un sticker\n\n*USO DEL COMAMDO*\n*${prefix + command}* Nombre|Autor\n\n📌Ejemplo *${prefix + command}* Memes|JY`);
         encmedia = JSON.parse(JSON.stringify(mek).replace("quotedM", "m"))
           .message.extendedTextMessage.contextInfo;
         media = await Fg.downloadAndSaveMediaMessage(encmedia);
         anu = args.join(" ").split("|");
         satu = anu[0] !== "" ? anu[0] : `Briggitt`;
-        dua = typeof anu[1] !== "undefined" ? anu[1] : `@fg98._`;
+        dua = typeof anu[1] !== "undefined" ? anu[1] : `JY`;
         require("./libreria/fetcher.js").createExif(satu, dua);
         require("./libreria/fetcher.js").modStick(media, Fg, mek, from);
         break;
@@ -2311,7 +2311,7 @@ case 'stickergif':
 case 'sgif':  
   if (!isVerify) return reply(userB(prefix))
   if (isBanned) return reply(banf())
-					var a = 'FG98'
+					var a = 'JY'
         var b = 'Briggitt'
         if (
           ((isMedia && !mek.message.videoMessage) || isQuotedImage) &&
@@ -2373,7 +2373,7 @@ case 'sgif':
                 .extendedTextMessage.contextInfo
             : mek;
           const media = await Fg.downloadAndSaveMediaMessage(encmedia);
-        var a = 'FG98'
+        var a = 'JY'
         var b = 'Briggitt'
           await createExif(a, b);
           out = getRandom(".webp");
@@ -2609,7 +2609,7 @@ if (args.length < 1) return reply(`✳️ _Envie el texto_\n\n📌Ejemplo *${pre
 break
 					
 					
-//----ENCODE Y DECODE---FG98
+//----ENCODE Y DECODE---JY
 case 'code':
 case 'encode':
 if (!isVerify) return reply(userB(prefix))
