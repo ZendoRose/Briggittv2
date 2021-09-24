@@ -1,5 +1,5 @@
 /** 
- * Original  creado por FG98 
+ * Original  creado por JY 
  *
  * GitHub es una comunidad de código abierto, entonces, ¿por qué te molesta tanto cuando alguien comparte un código simple?
  */
