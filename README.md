@@ -1,6 +1,6 @@
 
 <p align="center">
-<a href="https://github.com/JYBriggitt"><img title="FG98" src="https://img.shields.io/badge/github-JYBriggitt-orange.svg?style=social&logo=github"></a>
+<a href="https://github.com/JYBriggitt"><img title="JY" src="https://img.shields.io/badge/github-JYBriggitt-orange.svg?style=social&logo=github"></a>
 </p>
 
 <a href="https://github.com/JYBriggitt/followers"><img title="Followers" src="https://img.shields.io/github/followers/JYBriggitt?label=Followers&style=social"></a>
@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-<a href="https://github.com/JYBriggitt"><img title="Author" src="https://img.shields.io/badge/FG98-V4-orange?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/JYBriggitt"><img title="Author" src="https://img.shields.io/badge/JY-V2-orange?style=for-the-badge&logo=github"></a>
 </p>
 
 
